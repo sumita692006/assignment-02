@@ -18,7 +18,7 @@
     border-radius: 8px;
 }
 
-.navbar, .banner, .banner-text, .banner-img {
+.navbar, .banner, .banner-text, .banner-img, .box-container {
     border: 2px solid orange;
 }
 
@@ -79,4 +79,26 @@
 
 .bg-black{
     background-color: black;
+}
+
+/* standard */
+
+ .Standard-header{
+    /* border: 2px dashed black; */
+    text-align: center;
+}
+
+.box-container{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    text-align: center;
+}
+
+.box{
+    border: 2px solid whitesmoke;
+    border-radius: 18.86px;
+    padding: 28px;
+    width: 70%;
+    margin-left: 35px;
+    box-shadow: 0 0 28.3px 0.094px rgba(0, 0, 0, 0.05) ;
 }
