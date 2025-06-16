@@ -1,0 +1,82 @@
+/* *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+} */
+
+/* shared style */
+
+.navbar, .display-flex, .banner{
+    display: flex;
+}
+
+.btn-primary{
+    color: white;
+    background-color: orange;
+    padding: 10px 25px;
+    border: none;
+    border-radius: 8px;
+}
+
+.navbar, .banner, .banner-text, .banner-img {
+    border: 2px solid orange;
+}
+
+/* colors */
+
+.orange{
+    color: orange;
+}
+.aqua{
+    color: aqua;
+}
+.aquamarine{
+    color: aquamarine;
+}
+.blueviolet{
+    color: blueviolet;
+}
+.blue{
+    color: rgba(0, 162, 255, 0.61);
+}
+.black{
+    color: black;
+}
+
+/* nav style */
+
+.navbar{
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo-section{
+    align-items: center;
+}
+
+.list-items{
+    justify-content: space-between;
+    /* border: 2px dashed black; */
+    width: 150%;
+    /* height: 100%; */
+}
+
+.list-item{
+    list-style: none;
+}
+ 
+.link{
+    text-decoration: none;
+    font-weight: 600;
+}
+
+/* banner */
+
+.banner{
+    align-items: center;
+    justify-content: space-between;
+}
+
+.bg-black{
+    background-color: black;
+}
